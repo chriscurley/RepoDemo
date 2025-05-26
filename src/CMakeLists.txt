@@ -1,2 +1,2 @@
-# Create a library target from the source files
-add_library(hello_lib Hello.cpp)
+# This subdirectory can be used for additional configuration
+# or other targets that support the main executable

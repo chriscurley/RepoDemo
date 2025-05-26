@@ -11,9 +11,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Add the src subdirectory
 add_subdirectory(src)
 
-# Add executable target using the library from src
-add_executable(HelloWorld)
-target_link_libraries(HelloWorld PRIVATE hello_lib)
+# Add executable target using the source files from src
+add_executable(HelloWorld src/hello.cpp)
 
 # Optional: Set compiler-specific options
 if(MSVC)
