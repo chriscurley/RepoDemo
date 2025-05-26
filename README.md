@@ -1,3 +1,3 @@
-# Project Title
+# Repo Demo
 
-A brief description of the project.
+Repository playground personal project
